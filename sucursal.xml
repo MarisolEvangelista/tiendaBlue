@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.0.1
+- https://www.phpmyadmin.net
+-
+- Servidor: 127.0.0.1
+- Tiempo de generación: 11-06-2021 a las 06:36:30
+- Versión del servidor: 10.4.11-MariaDB
+- Versión de PHP: 7.4.3
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="blue store" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="sucursal">
+                CREATE TABLE `sucursal` (
+                  `Estado` varchar(25) NOT NULL,
+                  `Tiendas` int(11) NOT NULL,
+                  `Direccion` varchar(25) NOT NULL,
+                  `Gerente` varchar(25) NOT NULL,
+                  `Telefono` varchar(25) NOT NULL
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Base de datos: 'blue store'
+    -->
+    <database name="blue store">
+        <!-- Tabla sucursal -->
+        <table name="sucursal">
+            <column name="Estado">AGUASCALIENTES</column>
+            <column name="Tiendas">2</column>
+            <column name="Direccion">CALLE AGUSTIN LARA </column>
+            <column name="Gerente">NATALIA</column>
+            <column name="Telefono">2451109297</column>
+        </table>
+        <table name="sucursal">
+            <column name="Estado">BAJA CALIFORNIA</column>
+            <column name="Tiendas">2</column>
+            <column name="Direccion">AV. INDEPENDENCIA </column>
+            <column name="Gerente">PAOLA</column>
+            <column name="Telefono">2345678765</column>
+        </table>
+        <table name="sucursal">
+            <column name="Estado">CAMPECHE</column>
+            <column name="Tiendas">4</column>
+            <column name="Direccion">CARRETERA A LOMA ALTA</column>
+            <column name="Gerente">MARIANA</column>
+            <column name="Telefono">3452134256</column>
+        </table>
+        <table name="sucursal">
+            <column name="Estado">CHIAPAS</column>
+            <column name="Tiendas">1</column>
+            <column name="Direccion">CALLE ALDAMA</column>
+            <column name="Gerente">SANTIAGO</column>
+            <column name="Telefono">2453459870</column>
+        </table>
+        <table name="sucursal">
+            <column name="Estado">CHIHUAHUA</column>
+            <column name="Tiendas">1</column>
+            <column name="Direccion">CALLE IGNACIO RAYON</column>
+            <column name="Gerente">LUCIO</column>
+            <column name="Telefono">4532167543</column>
+        </table>
+        <table name="sucursal">
+            <column name="Estado">COAHUILA</column>
+            <column name="Tiendas">3</column>
+            <column name="Direccion">CALLE OCAMPO</column>
+            <column name="Gerente">CLAUDIO</column>
+            <column name="Telefono">8907342156</column>
+        </table>
+        <table name="sucursal">
+            <column name="Estado">COLIMA</column>
+            <column name="Tiendas">1</column>
+            <column name="Direccion">CALLE BENITO JUAREZ</column>
+            <column name="Gerente">ANA</column>
+            <column name="Telefono">7854236709</column>
+        </table>
+        <table name="sucursal">
+            <column name="Estado">DURANGO</column>
+            <column name="Tiendas">2</column>
+            <column name="Direccion">CALLE  DE MAYO</column>
+            <column name="Gerente">MIRANDA</column>
+            <column name="Telefono">2456731907</column>
+        </table>
+        <table name="sucursal">
+            <column name="Estado">GUANAJUATO</column>
+            <column name="Tiendas">4</column>
+            <column name="Direccion">AV. LIBERTAD</column>
+            <column name="Gerente">MARTHA</column>
+            <column name="Telefono">2450987877</column>
+        </table>
+        <table name="sucursal">
+            <column name="Estado">GUERRERO</column>
+            <column name="Tiendas">3</column>
+            <column name="Direccion">CALLE MORELOS</column>
+            <column name="Gerente">VALERIO</column>
+            <column name="Telefono">2456091243</column>
+        </table>
+        <table name="sucursal">
+            <column name="Estado">HIDALGO</column>
+            <column name="Tiendas">2</column>
+            <column name="Direccion">BOULEVARD BENITO JUAREZ</column>
+            <column name="Gerente">REBECCA</column>
+            <column name="Telefono">2456732145</column>
+        </table>
+        <table name="sucursal">
+            <column name="Estado">JALISCO</column>
+            <column name="Tiendas">5</column>
+            <column name="Direccion">BLVD. MANUEL AVILA CAMACH</column>
+            <column name="Gerente">LUCRECIA</column>
+            <column name="Telefono">3412890765</column>
+        </table>
+        <table name="sucursal">
+            <column name="Estado">MICHOACAN</column>
+            <column name="Tiendas">2</column>
+            <column name="Direccion">AV. JESUS CARRANZA</column>
+            <column name="Gerente">MATIAS</column>
+            <column name="Telefono">6543890765</column>
+        </table>
+        <table name="sucursal">
+            <column name="Estado">MORELOS</column>
+            <column name="Tiendas">2</column>
+            <column name="Direccion">CALLE DANIEL SOTO</column>
+            <column name="Gerente">ISABELLA</column>
+            <column name="Telefono">3452704654</column>
+        </table>
+        <table name="sucursal">
+            <column name="Estado">NAYARIT</column>
+            <column name="Tiendas">1</column>
+            <column name="Direccion">PROLONG. INDEPENDENCIA</column>
+            <column name="Gerente">CARLOS</column>
+            <column name="Telefono">4421367895</column>
+        </table>
+        <table name="sucursal">
+            <column name="Estado">NUEVO LEON</column>
+            <column name="Tiendas">5</column>
+            <column name="Direccion">CENTRO PINERO</column>
+            <column name="Gerente">LUIS</column>
+            <column name="Telefono">2227398012</column>
+        </table>
+        <table name="sucursal">
+            <column name="Estado">OAXACA</column>
+            <column name="Tiendas">1</column>
+            <column name="Direccion">CARRETERA TUXTEPEC</column>
+            <column name="Gerente">FATIMA</column>
+            <column name="Telefono">2451106840</column>
+        </table>
+        <table name="sucursal">
+            <column name="Estado">PUEBLA</column>
+            <column name="Tiendas">2</column>
+            <column name="Direccion">CALLE  ARTEAGA </column>
+            <column name="Gerente">ELOY</column>
+            <column name="Telefono">2227895434</column>
+        </table>
+        <table name="sucursal">
+            <column name="Estado">QUERETARO</column>
+            <column name="Tiendas">3</column>
+            <column name="Direccion">AVE ALTAR</column>
+            <column name="Gerente">JACK</column>
+            <column name="Telefono">2453121214</column>
+        </table>
+        <table name="sucursal">
+            <column name="Estado">SINALOA</column>
+            <column name="Tiendas">3</column>
+            <column name="Direccion">AV. FRANCISCO I MADERO</column>
+            <column name="Gerente">MOISES</column>
+            <column name="Telefono">2459824509</column>
+        </table>
+        <table name="sucursal">
+            <column name="Estado">SONORA</column>
+            <column name="Tiendas">1</column>
+            <column name="Direccion">CALLE GUTIERREZ ZAMORA</column>
+            <column name="Gerente">KATHERINE</column>
+            <column name="Telefono">2457541212</column>
+        </table>
+        <table name="sucursal">
+            <column name="Estado">TABASCO</column>
+            <column name="Tiendas">1</column>
+            <column name="Direccion">CALLE MELCHOR OCAMPO</column>
+            <column name="Gerente">CAROLINA</column>
+            <column name="Telefono">3765984309</column>
+        </table>
+        <table name="sucursal">
+            <column name="Estado">VERACURZ</column>
+            <column name="Tiendas">1</column>
+            <column name="Direccion">AV.REVOLUCION</column>
+            <column name="Gerente">STEPHAN</column>
+            <column name="Telefono">4567231298</column>
+        </table>
+        <table name="sucursal">
+            <column name="Estado">YUCATAN</column>
+            <column name="Tiendas">2</column>
+            <column name="Direccion">CALLE ZARAGOZA</column>
+            <column name="Gerente">CAYETANA</column>
+            <column name="Telefono">2453673241</column>
+        </table>
+        <table name="sucursal">
+            <column name="Estado">ZACATECAS</column>
+            <column name="Tiendas">1</column>
+            <column name="Direccion">CALLE LAZARO CARDENAS</column>
+            <column name="Gerente">NADIA</column>
+            <column name="Telefono">2453487786</column>
+        </table>
+    </database>
+</pma_xml_export>
